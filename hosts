@@ -1,0 +1,9 @@
+[masters]
+master ansible_host=157.245.90.216 ansible_user=root
+
+[workers]
+worker1 ansible_host=157.245.86.44 ansible_user=root
+worker2 ansible_host=157.245.86.43 ansible_user=root
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
